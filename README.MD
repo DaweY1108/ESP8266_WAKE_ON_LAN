@@ -1,19 +1,5 @@
 # ESP8266 Wake-on-LAN Controller
 
-<p align="center">
-  <img src="[Add your project logo/banner here]" alt="ESP8266 WoL Controller" width="600">
-</p>
-
-A modern, responsive web interface for Wake-on-LAN functionality using ESP8266. Control your PC remotely with WoL packets and physical power control through a relay.
-
-```
-    ____                  __  ____________  ____ 
-   / __ \____ __      ____\ \/ <  <  / __ \( __ )
-  / / / / __ `/ | /| / / _ \  // // / / / / __  |
- / /_/ / /_/ /| |/ |/ /  __/ // // / /_/ / /_/ / 
-/_____/\__,_/ |__/|__/\___/_//_//_/\____/\____/ 
-```
-
 ## Features
 
 - 🔐 Secure login system
@@ -26,12 +12,13 @@ A modern, responsive web interface for Wake-on-LAN functionality using ESP8266. 
 
 ## Screenshots
 
-[Add screenshots of your login screen and main interface here]
+![Alt text](https://i.ibb.co/CsDkvjsL/K-perny-k-p-2025-02-22-143137.png "Login")
+![Alt text](https://i.ibb.co/1GbhqLG8/K-perny-k-p-2025-02-22-143331.png "Main")
 
 ## Hardware Requirements
 
 - ESP8266 board (NodeMCU, Wemos D1 Mini, etc.)
-- Relay module (connected to pin 12 by default)
+- Relay module (connected to pin 12 by default) <- Only required if not want to use Wake-On-Lan
 - Power supply for ESP8266
 - Access to your local network
 
@@ -113,16 +100,3 @@ Feel free to submit issues and enhancement requests!
 ## Author
 
 Made by DaweY
-
-## Acknowledgments
-
-- TailwindCSS for the beautiful UI
-- ESP8266 Community for excellent libraries
-- [Add any other acknowledgments]
-
-## Future Plans
-
-- [ ] Add HTTPS support
-- [ ] Implement OTA updates
-- [ ] Add device scheduling
-- [ ] [Add your planned features]
